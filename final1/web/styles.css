@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One&family=ZCOOL+QingKe+HuangYou&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One&family=Source+Sans+Pro:wght@200&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+}
+
+#header{
+    margin: 0px 0px;
+    width: 500px;
+    position: fixed;
+    z-index: 2;
+    text-align: right;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nav{
+    list-style: none;
+}
+
+.nav li a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: block;
+}
+
+.nav li a:hover{
+    background-color: rgba(14, 77, 105, 0.555);
+}
+
+.nav > li{
+    float: left;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li ul li{
+    position: relative;
+}
+
+.nav li ul li ul{
+    right: -140px;
+    top: 0px;
+}
+
+.imagen{
+    position: relative;
+    margin: 0px;
+}
+
+hr{
+    background-color: gray;
+    height: 15px;
+    margin-bottom: -1px;
+    margin-top: -1px;
+}
+
+.text{
+    position: relative;
+    margin: 30px 0px 30px;
+    text-align: justify;
+    font-family: 'Kumar One', cursive;
+
+}
+
+h1{
+    text-align: center;
+}
